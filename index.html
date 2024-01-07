@@ -107,14 +107,73 @@
         }
 
         .third-section-main {
-            background-image: url("assets/Vectorrr.png");
+            background-image: url(assets/Vectorrr.png);
             width: 1320px;
             height: 600px;
             display: flex;
             align-items: center;
-            justify-content: center;
-            flex-direction: column;
 
+            flex-direction: row;
+            align-content: center;
+
+
+
+        }
+        .third-section-main-text{
+            margin-left: 126px;
+        }
+        .third-section-main-text .p1 {
+            font-size: 64px;
+            color: white;
+            text-align: center;
+            font-weight: 900;
+            font-family: 'Merriweather';
+            letter-spacing: 7.04px;
+            text-align: left;
+            margin-bottom: 24px;
+        }
+
+        .third-section-main-text .p2 {
+            color: rgba(255, 255, 255, 0.80);
+            font-family: Inter;
+            font-size: 18px;
+            width: 80%;
+            text-align: left;
+            font-weight: 900;
+            margin-bottom: 48px;
+        }
+
+        .third-section-main-text .p3 {
+            font-family: Inter;
+            font-size: 20px;
+            margin-left: 30px;
+            font-weight: 700;
+            color:rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+        }
+        .third-section-main-pic{
+            margin-right: 138px;
+        }
+        .fourth-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            font-family: Inter;
+            font-weight: 600;
+        }
+        .fourth-section-main{
+            width: 1320px;
+            height: 482px;
+            background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .fourth-section-main span{
+            color:#F00;
 
         }
     </style>
@@ -139,21 +198,36 @@
     <section class="third-section">
         <div class="third-section-main">
 
-            <div class="">
-                <p>Welcome to midnight party</p>
-                <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie
-                    malesuada. Ipsum sed sodales risus ut pellentesque vel euismod</p>
-                <p>Join Now</p>
+            <div class="third-section-main-text">
+                <p class="p1">Welcome to midnight party</p>
+                <p class="p2">Food and brooze on the house . Drink . Eat and Have fun . the yoer is yours</p>
+
+                <!-- <p class="p3">Join Now</p> -->
+                <button class="p3">Join Now</button>
             </div>
-            <div>
+            <div class="third-section-main-pic">
                 <img src="assets/Group 70.png">
             </div>
         </div>
 
 
     </section>
-    <section>4</section>
-    <section>5</section>
+    <section class="fourth-section">
+        <div class="fourth-section-main">
+<div><p><span>Place:</span> New Park Hotel</p>
+    <p><span>Date:</span> 31 December Night 2023</p>
+    <p><span>Time:</span> Evening 7.30 pm to 12.30 am</p>
+    <button >Join Now</button>
+</div>
+        </div>
+    </section>
+    <section class="fifth-section">
+        <div></div>
+    </section>
+    <section class="sixth-section">
+        <div></div>
+    </section>
+   
 
 </body>
 <footer>
